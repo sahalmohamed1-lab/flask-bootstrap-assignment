@@ -5,7 +5,40 @@ Home
 {% endblock %}
 
 {% block content %}
-<h1>Welcome to the Home Page</h1>
-<p>This is a simple home page for our Flask application.</p>
+<div class="p-5 mb-4 bg-light rounded-3">
+    <h1 class="display-4">Welcome to Event Manager</h1>
+    <p class="lead">
+        Organize conferences, workshops, hackathons, and community events with ease.
+    </p>
+    <a href="/about" class="btn btn-primary">
+        Learn More
+    </a>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5>Create Events</h5>
+                <p>Add new events quickly and efficiently.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5>Manage Events</h5>
+                <p>Edit event information whenever necessary.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5>Stay Organized</h5>
+                <p>Keep track of all upcoming activities in one place.</p>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
 
